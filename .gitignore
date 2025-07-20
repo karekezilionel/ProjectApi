@@ -1,0 +1,18 @@
+# Ignore environment files
+.env
+apikey.txt
+config.js
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore logs
+*.log
+
+# Ignore node_modules folder (if any)
+node_modules/
+
+# Ignore build folders
+dist/
+build/
