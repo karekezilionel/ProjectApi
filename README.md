@@ -19,7 +19,7 @@ git clone https://github.com/yourusername/your-repo-name.git
 
 
 2. open the project
-3. open the inde.html file in your browser
+3. open the index.html file in your browser
 4.use the interface to select currencies of your choice, enter the amount, then click convert
 
 
