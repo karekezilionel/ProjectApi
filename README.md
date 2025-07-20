@@ -26,14 +26,14 @@ git clone https://github.com/yourusername/your-repo-name.git
 
 ## API Used
 
-This project uses the ExchangeRate-API to fetch live currency exchange rates.
 
+This project uses the following :
 
--FlagCDN (flagcdn.com)	Displaying country flags in dropdowns	FlagCDN
+-ExchangeRate-API
+Provides real-time currency exchange rates.
 
--API Documentation: https://www.exchangerate-api.com/docs/overview
-
--API key is securely used within the application.
+-FlagCDN
+Provides free country flag icons used in the dropdown menus.
 
 
 
