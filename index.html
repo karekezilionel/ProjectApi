@@ -1,28 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Currency Converter</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Currency Converter</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <div class="container">
+    <h1>Currency Converter</h1>
 
-    <h1 class="main-title">Currency Converter</h1>
-
-    <div class="converter">
-        <input type="number" id="amount" placeholder="Enter amount" required>
-
-        <div class="custom-dropdown" id="fromDropdown"></div>
-        <input type="hidden" id="fromCurrency">
-
-        <div class="custom-dropdown" id="toDropdown"></div>
-        <input type="hidden" id="toCurrency">
-
-        <button onclick="convertCurrency()">Convert</button>
-
-        <div id="result"></div>
+    
+    <div id="offlineMsg" class="offline-message" style="display:none;">
+      You are offline. Please check your internet connection.
     </div>
 
-    <script src="script.js"></script>
+    <div class="converter">
+      <div id="fromDropdown" class="dropdown"></div>
+      <input type="hidden" id="fromCurrency" />
+      
+      
+      <button id="swapBtn" title="Swap Currencies">⇄</button>
+      
+      <div id="toDropdown" class="dropdown"></div>
+      <input type="hidden" id="toCurrency" />
+    </div>
+
+    <input
+      type="number"
+      id="amount"
+      placeholder="Enter amount"
+      min="0"
+      step="any"
+    />
+    <button id="convertBtn">Convert</button>
+
+    <div id="result" class="result"></div>
+    <div id="dailyRate" class="daily-rate"></div>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
