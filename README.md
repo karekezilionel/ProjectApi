@@ -15,7 +15,7 @@ this is a simple **Currency converter** that allows user to convert any type of 
 
 1. clone the repository:
 
-git clone https://github.com/yourusername/your-repo-name.git
+git clone https://github.com/karekezilionel/ProjectApi.git
 
 
 2. open the project
