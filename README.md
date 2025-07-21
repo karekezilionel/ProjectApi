@@ -9,7 +9,8 @@ this is a simple **Currency converter** that allows user to convert any type of 
 1.Select currencies from dropdown menus with their respective country flags
 2.Enter any amount of money to convert it between the chosen currencies
 3.Real-time currency exchange rates fetched from a reliable API.
-4.User-friendly interface
+4.Daily Exchange Rate
+5.User-friendly interface
 
 ## How to run the app
 
