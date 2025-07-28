@@ -9,8 +9,10 @@
 <body>
   <div class="container">
     <h1>Currency Converter</h1>
-
-    
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="news.html">Currency News</a>
+    </nav>
     <div id="offlineMsg" class="offline-message" style="display:none;">
       You are offline. Please check your internet connection.
     </div>
@@ -18,10 +20,7 @@
     <div class="converter">
       <div id="fromDropdown" class="dropdown"></div>
       <input type="hidden" id="fromCurrency" />
-      
-      
       <button id="swapBtn" title="Swap Currencies">⇄</button>
-      
       <div id="toDropdown" class="dropdown"></div>
       <input type="hidden" id="toCurrency" />
     </div>
@@ -38,7 +37,6 @@
     <div id="result" class="result"></div>
     <div id="dailyRate" class="daily-rate"></div>
   </div>
-
   <script src="script.js"></script>
 </body>
 </html>
