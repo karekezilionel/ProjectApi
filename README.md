@@ -54,5 +54,6 @@ http://localhost:8080
 ## Challenges
 
 -Dynamically loading and displaying correct country flags for each currency.
+-Managing server commands without familiar tools like systemctl made restarting services a bit more difficult.
 
 
