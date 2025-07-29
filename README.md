@@ -42,7 +42,8 @@ http://localhost:8080
 
 4.If deployed with HAProxy load balancer and multiple servers, open the load balancer URL or IP in your browser to access the app.
 
-**what i used**
+## what i used
+
 1.HTML,CSS,JAVASCRIPT
 2.NGINX(server)
 3.HAProxy (load balancer)
