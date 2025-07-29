@@ -28,31 +28,19 @@ this is a simple **Currency converter** that allows users to convert amounts bet
 
 **How to Run Locally**
 
-Clone the repository:
+1.Build the Docker image:
 
-bash
-Copy
-Edit
-git clone <your-repo-url>
-cd <project-folder>
-Build the Docker image:
-
-bash
-Copy
-Edit
 docker build -t currency-converter .
-Run the container locally:
 
-bash
-Copy
-Edit
+2.Run the Docker container on your machine:
+
 docker run -d -p 8080:80 currency-converter
-Open your browser and navigate to:
 
-arduino
-Copy
-Edit
+3.Open your browser and go to:
+
 http://localhost:8080
+
+4.If deployed with HAProxy load balancer and multiple servers, open the load balancer URL or IP in your browser to access the app.
 
 **what i used**
 1.HTML,CSS,JAVASCRIPT
