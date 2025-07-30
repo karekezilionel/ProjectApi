@@ -21,6 +21,21 @@ h1 {
   margin-bottom: 20px;
 }
 
+nav {
+  margin-bottom: 25px;
+}
+
+nav a {
+  color: #4da6ff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 600;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
 .converter {
   display: flex;
   justify-content: center;
@@ -142,4 +157,9 @@ h1 {
   border-radius: 8px;
   margin-bottom: 20px;
   font-weight: bold;
+}
+
+#newsContainer {
+  text-align: left;
+  color: #ccc;
 }

@@ -1,18 +1,11 @@
-# Ignore environment files
+# Ignore environment files if you create them later
 .env
 apikey.txt
 config.js
 
-# Ignore OS files
+# Ignore OS junk files
 .DS_Store
 Thumbs.db
 
-# Ignore logs
+# Ignore logs if any
 *.log
-
-# Ignore node_modules folder (if any)
-node_modules/
-
-# Ignore build folders
-dist/
-build/

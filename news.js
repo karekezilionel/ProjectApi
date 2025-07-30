@@ -53,4 +53,3 @@ async function fetchNews() {
 }
 
 fetchNews();
-
