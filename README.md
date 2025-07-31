@@ -87,13 +87,13 @@ This keeps secrets secure and separate from the image source code and repository
 
 5,Clear data presentation with interactive user input
 
-#Credits
+# Credits
 
 ExchangeRate-API for live exchange rates: https://www.exchangerate-api.com
 
 FlagCDN for country flags: https://flagcdn.com
 
-#Challenges & Solutions
+# Challenges & Solutions
 
 1.Handling dynamic loading of flags for multiple currencies
 
