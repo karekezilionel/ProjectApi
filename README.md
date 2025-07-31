@@ -75,7 +75,7 @@ docker run -d --name currency-app --restart unless-stopped -p 8080:8080 \
 
 This keeps secrets secure and separate from the image source code and repository.
 
-#Application Features & Purpose
+# Application Features & Purpose
 
 1.Real-time currency conversion using ExchangeRate-API
 
