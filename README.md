@@ -18,7 +18,7 @@ To build the Docker image locally, run the following commands in your project di
 
 # Clone the repository (if not already cloned)
 
-git clone https://github.com/lionelisthename/currency-converter.git
+git clone https://github.com/karekezilionel/ProjectApi
 
 cd currency-converter
 
@@ -40,15 +40,6 @@ SSH into each server and run the following commands to pull and run the Docker i
 docker pull lionelisthename/currency-converter:latest
 
 
-# Run the container with restart policy and port mapping
-
-docker run -d --name currency-app --restart unless-stopped -p 8080:8080 lionelisthename/currency-converter:latest
-
-Your application will be accessible internally at:
-
-http://web-01:8080
-
-http://web-02:8081
 
 # Load Balancer Configuration (Lb01)
 
